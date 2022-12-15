@@ -57,7 +57,7 @@ void Application::Initialize() {
     };
 
     ResetGame();
-    game.level = 4;
+    game.level = 0;
 
     if (showIntro)
         currentState = ApplicationStates::Intro;
